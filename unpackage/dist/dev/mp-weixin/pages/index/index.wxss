@@ -1,0 +1,25 @@
+.page .flex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.page .card {
+  background: #fff;
+  margin: 40rpx 40rpx 0 40rpx;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+}
+.page .card image {
+  height: 200rpx;
+  width: 400rpx;
+}
+.page .card > view {
+  padding: 20rpx;
+}
+.page .card .border-title {
+  border-bottom: 1rpx solid #ccc;
+}
+.page .card .cardItem:not(:last-child) {
+  border-bottom: 1rpx solid #ccc;
+}
+
